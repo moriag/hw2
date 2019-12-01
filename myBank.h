@@ -1,0 +1,10 @@
+void init();
+int isOpen(int account);
+int openAccount();
+void changeBalance(int account,double amount);
+int add(int account,double amount);
+int withdrawal(int account, double amount);
+void interst(double amount);
+void close(int account);
+int printBank();
+void printBalance(int account);
